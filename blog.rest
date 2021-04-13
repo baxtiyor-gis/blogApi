@@ -1,0 +1,34 @@
+GET http://localhost:3001/api/blogs HTTP/1.1
+
+####
+
+GET http://localhost:3001/api/blogs/60757356889242226c46bdf1 HTTP/1.1
+
+####
+
+POST http://localhost:3001/api/blogs HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Java birinchi dars",
+  "text": "Dear Ms Sarkis",
+  "category": "6075cc78954824138105a0b5",
+  "tags": ["java", "dasturlash"]
+}
+
+####
+
+PUT http://localhost:3001/api/blogs/6075cc92954824138105a0b6 HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Java 1-dars!",
+  "text": "Dear Ms Sarkis",
+  "category": "6075cc78954824138105a0b5",
+  "tags": ["java", "dasturlash"]
+}
+
+###
+
+DELETE  http://localhost:3001/api/blogs/6075cc46954824138105a0b4 HTTP/1.1
+
