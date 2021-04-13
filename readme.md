@@ -8,7 +8,7 @@
 ## How to run ?
 
 1. If you need run application on development mode run `npm run dev`
-2. If you need run application on production mode run `npm run start`
+2. If you need run application on production mode run `npm start`
 
 
 ### Category CRUD
