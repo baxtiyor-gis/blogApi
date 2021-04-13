@@ -11,14 +11,14 @@
 2. If you need run application on production mode run `npm run start`
 
 
-### Categroy CRUD
+### Category CRUD
 `_id, name, descrption, updatedAt, createdAt`
 
-* GET `/api/blogs`
-* GET `/api/blogs/:id`
-* POST `/api/blogs`
-* PUT `/api/blogs/:id`
-* DELETE `/api/blogs/:id`
+* GET `/api/category`
+* GET `/api/category/:id`
+* POST `/api/category`
+* PUT `/api/category/:id`
+* DELETE `/api/category/:id`
 
 
 ### Blog CRUD
