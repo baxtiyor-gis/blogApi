@@ -14,11 +14,11 @@
 ### Category CRUD
 `_id, name, descrption, updatedAt, createdAt`
 
-* GET `/api/category`
-* GET `/api/category/:id`
-* POST `/api/category`
-* PUT `/api/category/:id`
-* DELETE `/api/category/:id`
+* GET `/api/categories`
+* GET `/api/categories/:id`
+* POST `/api/categories`
+* PUT `/api/categories/:id`
+* DELETE `/api/categories/:id`
 
 
 ### Blog CRUD
